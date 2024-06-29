@@ -1,0 +1,15 @@
+int executeQuery(const char *query);
+int openDatabase();
+void closeDatabase();
+int findChildrenOfNode(const char *nodeName);
+int countChildrenOfParent(char *nodeName);
+int findGrandChildrenOfNode(char *nodeName);
+int findParentsOfNode(char *nodeName);
+int CountsParentsOfNode(char *nodeName);
+int findGrandParentsOfNode(char *nodeName);
+int findRootNodes();
+int countUniquelyNamedNodes();
+int findMostChildrenNodes();
+int findLeastChildrenNodes();
+int renameNodes(char *nodeName1, char *nodeName2);
+void FindAllPathsBetweenNodes(char *nodeName1, char *nodeName2);
